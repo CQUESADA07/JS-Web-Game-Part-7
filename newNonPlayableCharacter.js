@@ -20,6 +20,7 @@ function newNonPlayableCharacter(x, y) {
         element.style.left = x + 'px'
         element.style.bottom = y + 'px'
     }
+  
 
     setInterval(moveCharacter, 1)
 
